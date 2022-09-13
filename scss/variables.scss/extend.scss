@@ -1,0 +1,14 @@
+%estilofooter {
+    font-family: "Prata", serif;
+    color: grey;
+}
+
+
+@mixin estiloTexto {
+    font-family: "Crimson Text", serif;
+    color: bisque;
+    margin: 40px;
+    padding: 40px;
+    
+}
+

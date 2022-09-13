@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*variables */
+footer {
+  font-family: "Prata", serif;
+  color: grey; }
+
+/* secciones */
+body {
+  background-color: black; }
+  body ol {
+    font-family: "Crimson Text", serif;
+    color: bisque;
+    margin: 40px;
+    padding: 40px; }
+  body form {
+    font-family: "Prata", serif; }
+  body .imgpaul {
+    text-align: center; }
+  body .card {
+    background-color: darkslategray;
+    color: grey;
+    font-family: "Prata", serif; }
+  body .row {
+    justify-content: space-evenly; }
+
+header {
+  font-family: "Prata", serif; }
+  header h1 {
+    font-family: "Crimson Text", serif;
+    color: bisque;
+    margin: 40px;
+    padding: 40px; }
+  header .div {
+    font-family: "Prata", serif; }
+
+section h2 {
+  font-family: "Crimson Text", serif;
+  margin: 20px;
+  padding: 20px; }
+
+section p {
+  font-family: "Crimson Text", serif;
+  color: bisque;
+  margin: 40px;
+  padding: 40px; }
+
+footer {
+  text-decoration: none;
+  margin: 20px;
+  padding: 20px; }
+
+/* fuentes */

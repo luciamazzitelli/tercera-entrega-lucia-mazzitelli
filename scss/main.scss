@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*variables */
+@import './variables.scss/extend.scss';
+
+/* secciones */
+@import './secciones/body';
+@import './secciones/header';
+@import './secciones/section';
+@import './secciones/footer';
+
+/* fuentes */
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap");
+

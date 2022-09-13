@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+  ol {
+    @include estiloTexto;
+  }
+  form {
+    font-family: "Prata", serif;
+    
+  }
+  .imgpaul {
+    text-align: center;
+  }
+
+  .card {
+    background-color: darkslategray;
+    color: grey;
+    font-family: "Prata", serif;
+  }
+  .row {
+    justify-content: space-evenly;
+  }
+}
