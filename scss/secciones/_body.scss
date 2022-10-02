@@ -5,10 +5,26 @@ body {
   }
   form {
     font-family: "Prata", serif;
-    
+    text-align: center;
+    margin: 70px;
+    padding: 70px;
   }
   .imgpaul {
     text-align: center;
+  }
+  
+  .paulpic {
+    text-align: center;
+  }
+
+  .flexindex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .flexindex img {
+    padding: 5px;
   }
 
   .card {

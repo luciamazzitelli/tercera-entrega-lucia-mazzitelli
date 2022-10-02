@@ -9,6 +9,7 @@
     <!--Description-->
     <meta name="description" content="Completa el formulario para mas informacion">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <title>Fan Page | Contact</title>
 </head>
@@ -18,7 +19,7 @@
         <!--Menú de navegación-->
         <nav class="navbar navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Menú</a>
+              <a class="navbar-brand" href="#">Fan Page | Paul McCartney</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -49,10 +50,14 @@
             </div>
           </nav>
     </header>
+    <div class="paulpic"> 
+    <img src="../img/paulform.jpg" class="img-fluid" alt="Paul en blanco y negro con boina y cigarrillo">
+    </div>
     <section>
     <p>Para más información complete el siguiente formulario, Muchas Gracias!
     </p>
     </section>
+    <div class="container-fluid">
     <form>
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Email</label>
@@ -69,26 +74,22 @@
         </div>
         <button type="submit" class="btn btn-primary">Enviar</button>
       </form>
+    </div>
        <!--comienzo del footer-->
-       <footer class="footer">
-        <p>
-          <a href="https://www.facebook.com/PaulMcCartney" target="_blank"
-            >Facebook</a
-          >
-          <a href="https://www.instagram.com/paulmccartney/" target="_blank"
-            >Instagram</a
-          >
-          <a href="https://twitter.com/PaulMcCartney/" target="_blank">Twitter</a>
-          <a href="https://www.tiktok.com/@paulmccartney/" target="_blank"
-            >Tik Tok</a
-          >
-          <a
-            href="https://www.youtube.com/channel/UCvGnJy9RnXX0kGSnDPKCZzQ"
-            target="_blank"
-            >YouTube</a
-          >
-        </p>
-      </footer>
+       <div class="container-fluid">
+        <div class="row">
+      <footer class="footer">
+        <section class="buttons">
+          <p>
+            <a href="https://www.facebook.com/PaulMcCartney" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/paulmccartney/" target="_blank" class="fa fa-instagram"></a>
+            <a href="https://twitter.com/PaulMcCartney/" target="_blank" class="fa fa-twitter"></a>
+            <a href="https://www.youtube.com/channel/UCvGnJy9RnXX0kGSnDPKCZzQ"target="_blank" class="fa fa-youtube"></a>
+          </p>
+        </section>
+        </footer>
+      </div>
+    </div>
       <!--fin del footer-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>

@@ -6,22 +6,30 @@
   box-sizing: border-box; }
 
 /*variables */
-footer {
-  font-family: "Prata", serif;
-  color: grey; }
-
 /* secciones */
 body {
   background-color: black; }
   body ol {
-    font-family: "Crimson Text", serif;
+    font-family: "Prata", serif;
+    font-size: large;
     color: bisque;
     margin: 40px;
     padding: 40px; }
   body form {
-    font-family: "Prata", serif; }
+    font-family: "Prata", serif;
+    text-align: center;
+    margin: 70px;
+    padding: 70px; }
   body .imgpaul {
     text-align: center; }
+  body .paulpic {
+    text-align: center; }
+  body .flexindex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+  body .flexindex img {
+    padding: 5px; }
   body .card {
     background-color: darkslategray;
     color: grey;
@@ -32,7 +40,8 @@ body {
 header {
   font-family: "Prata", serif; }
   header h1 {
-    font-family: "Crimson Text", serif;
+    font-family: "Prata", serif;
+    font-size: large;
     color: bisque;
     margin: 40px;
     padding: 40px; }
@@ -45,14 +54,31 @@ section h2 {
   padding: 20px; }
 
 section p {
-  font-family: "Crimson Text", serif;
+  font-family: "Prata", serif;
+  font-size: large;
   color: bisque;
   margin: 40px;
   padding: 40px; }
 
-footer {
+footer .buttons {
+  min-width: 700px;
+  display: flex;
+  justify-content: space-around; }
+
+footer .buttons a {
   text-decoration: none;
-  margin: 20px;
-  padding: 20px; }
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: #314652;
+  color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  transition: all .4s ease-in-out; }
+
+footer .buttons a:hover {
+  transform: scale(1.2); }
 
 /* fuentes */
